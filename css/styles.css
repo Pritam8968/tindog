@@ -166,10 +166,6 @@ p {
 	.price-text {
 		font-size: 2.5rem;
 	}
-
-	.testimonial-text {
-		font-size: 2.5rem;
-	}
 	#title .padding-container {
 		text-align: center;
 	}
@@ -179,6 +175,13 @@ p {
 	}
 	#testimonials {
 		height: 500px;
+	}
+	.testimonial-text {
+		font-size: 2.5rem;
+	}
+	.press-logo {
+		margin: 15px 15px 35px;
+		width: 22%;
 	}
 	.card-holder {
 		margin-top: 5%;
@@ -192,10 +195,6 @@ p {
 	.price-text {
 		font-size: 2rem;
 	}
-
-	.testimonial-text {
-		font-size: 2rem;
-	}
 	#title .padding-container {
 		text-align: center;
 	}
@@ -203,8 +202,18 @@ p {
 		position: static;
 		transform: rotate(0);
 	}
+	.nav-item {
+		text-align: right;
+	}
 	#testimonials {
 		height: 470px;
+	}
+	.testimonial-text {
+		font-size: 2rem;
+	}
+	.press-logo {
+		margin: 10px 10px 25px;
+		width: 30%;
 	}
 	.card-holder {
 		margin-top: 5%;
