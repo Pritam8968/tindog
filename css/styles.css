@@ -1,0 +1,212 @@
+:root {
+	--pink-red: #ff4c68;
+	--peach: #ef8172;
+}
+body {
+	font-weight: 500;
+	text-align: center;
+}
+body,
+h1,
+h2,
+h3 {
+	font-family: "Montserrat", sans-serif;
+}
+h3 {
+	font-weight: 700;
+}
+p {
+	color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.5;
+}
+.section-heading {
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 1.5;
+}
+
+/* Containers */
+.padding-container {
+	padding: 7% 15%;
+}
+
+/* Section colors */
+.colored-section {
+	background-color: var(--pink-red);
+	color: #fff;
+}
+.white-section {
+	background-color: #fff;
+}
+
+/* Title Section */
+#title .padding-container {
+	padding-top: 3%;
+	text-align: left;
+}
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.navbar-brand {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+.nav-item {
+	font-size: 1.2rem;
+	margin: 0 18px;
+}
+
+/* Download buttons */
+.download-btn {
+	margin: 5% 3% 5% 0;
+}
+.title-img-box {
+	position: relative;
+}
+.title-image {
+	position: absolute;
+	right: 30%;
+	transform: rotate(25deg);
+	width: 60%;
+}
+
+/*  Features Section */
+#features {
+	position: relative;
+	z-index: 1; /* this is optional because image and features section both are positioned*/
+}
+.feature-title {
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.feature-box {
+	padding: 4.5%;
+}
+.feature-icon {
+	color: var(--peach);
+	margin-bottom: 1rem;
+}
+.feature-icon:hover {
+	color: var(--pink-red);
+}
+
+/* Testimonials Section */
+#testimonials {
+	background-color: var(--peach);
+	height: 560px;
+}
+.testimonial-text {
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 1.5;
+}
+.carousel-item {
+	padding: 5% 15%;
+}
+
+.testimonial-image {
+	border-radius: 50%;
+	margin: 20px;
+	width: 15%;
+}
+
+/* Press Section */
+#press {
+	background-color: var(--peach);
+	padding-bottom: 5%;
+}
+.press-logo {
+	margin: 20px 20px 50px;
+	width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+	padding: 6%;
+}
+.price-text {
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 1.5;
+}
+/* CTA Section */
+
+/* Footer Section */
+.social-icon {
+	font-size: 1.5rem;
+	margin: 20px 18px;
+}
+.facebook-icon:hover {
+	color: #4267b2;
+}
+.twitter-icon:hover {
+	color: #1da1f2;
+}
+.instagram-icon:hover {
+	color: #fb3958;
+}
+.mail-icon:hover {
+	color: #ea4335;
+}
+
+/* Media Queries */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+	.big-heading {
+		font-size: 3rem;
+		line-height: 1.5;
+	}
+	.section-heading,
+	.price-text {
+		font-size: 2.5rem;
+	}
+
+	.testimonial-text {
+		font-size: 2.5rem;
+	}
+	#title .padding-container {
+		text-align: center;
+	}
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+	#testimonials {
+		height: 500px;
+	}
+	.card-holder {
+		margin-top: 5%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.big-heading {
+		font-size: 2.5rem;
+	}
+	.section-heading,
+	.price-text {
+		font-size: 2rem;
+	}
+
+	.testimonial-text {
+		font-size: 2rem;
+	}
+	#title .padding-container {
+		text-align: center;
+	}
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+	#testimonials {
+		height: 470px;
+	}
+	.card-holder {
+		margin-top: 5%;
+	}
+}
